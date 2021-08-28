@@ -4,14 +4,14 @@
 
 <h3>Trabalhando com o NPM</h3>
  - para rodar o servidor
-  <p>Executar o comando no terminal</p>
+<p>Executar o comando no terminal</p>
 
 ~~~JavaScript
   node index
 ~~~
- <p>Toda vez que fizer uma alteração no projeto, tem que parar o servidor para roda ele novamente, fazendo isso com o comando no terminal.</p>
+<p>Toda vez que fizer uma alteração no projeto, tem que parar o servidor para roda ele novamente, fazendo isso com o comando no terminal.</p>
 
-  - Parando o servidor
+ - Parando o servidor
  ~~~JavaScript
   ctrl + c
 ~~~
@@ -32,6 +32,11 @@ Para fazer a instalação do NodeMon é bem simples, basta somente inserir o có
 
 ~~~JavaScript
   npm install nodemon -g
+~~~
+
+ - instalando o Consign
+ ~~~JavaScript
+  npm install consign --save
 ~~~
 
 
