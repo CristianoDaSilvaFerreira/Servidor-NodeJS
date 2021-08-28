@@ -1,0 +1,22 @@
+{
+  "name": "servidor-nodejs",
+  "version": "1.0.0",
+  "description": "servidor web com NodeJS e Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS.git"
+  },
+  "keywords": [
+    "Servidor-NodeJS"
+  ],
+  "author": "Cristiano Ferreira Desenvolvedor Frond-End",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS/issues"
+  },
+  "homepage": "https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS#readme"
+}

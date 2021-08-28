@@ -5,16 +5,18 @@
 <h3>Trabalhando com o NPM</h3>
   - para rodar o servidor
   <p>Executar o comando no terminal</p>
+
 ~~~JavaScript
   node index
 ~~~
  <p>Toda vez que fizer uma alteração no projeto, tem que parar o servidor para roda ele novamente, fazendo isso com o comando no terminal.</p>
+
   - Parando o servidor
  ~~~JavaScript
   ctrl + c
 ~~~
 
-<p>Criando uma iniciação para o npm</p>
+ - Criando uma iniciação para o npm
 ~~~JavaScript
-  node index
+  npm init
 ~~~
