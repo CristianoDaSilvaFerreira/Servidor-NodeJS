@@ -3,7 +3,7 @@
  <p>Criando um servidor com NodeExpress</p>
 
 <h3>Trabalhando com o NPM</h3>
-  - para rodar o servidor
+ - para rodar o servidor
   <p>Executar o comando no terminal</p>
 
 ~~~JavaScript
