@@ -39,4 +39,9 @@ Para fazer a instalação do NodeMon é bem simples, basta somente inserir o có
   npm install consign --save
 ~~~
 
+ - instalando o body-parser para monitoriamento do postman
+ ~~~JavaScript
+  npm install body-parser --save
+~~~
+
 
