@@ -44,4 +44,9 @@ Para fazer a instalação do NodeMon é bem simples, basta somente inserir o có
   npm install body-parser --save
 ~~~
 
+ - instalando o Banco de Dados NeDB
+ ~~~JavaScript
+  npm install nedb --save
+~~~
+
 
