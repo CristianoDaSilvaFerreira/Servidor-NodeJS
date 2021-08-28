@@ -25,3 +25,13 @@
 ~~~JavaScript
   npm install express --save
 ~~~
+
+<h3>Instalando o NodeMon</h3>
+
+Para fazer a instalação do NodeMon é bem simples, basta somente inserir o código abaixo, e colocando a informação que será feita de forma global para todas as aplicações
+
+~~~JavaScript
+  npm install nodemon -g
+~~~
+
+
