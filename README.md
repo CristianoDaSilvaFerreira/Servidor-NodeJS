@@ -20,3 +20,8 @@
 ~~~JavaScript
   npm init
 ~~~
+
+ - Instalando o express
+~~~JavaScript
+  npm install express --save
+~~~

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS/issues"
   },
-  "homepage": "https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS#readme"
+  "homepage": "https://github.com/CristianoDaSilvaFerreira/Servidor-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
