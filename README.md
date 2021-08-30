@@ -1,3 +1,7 @@
+<p align="center">
+ <img src="https://img.shields.io/github/repo-size/CristianoDaSilvaFerreira/Servidor-NodeJS">
+</p>
+
 <h1>Servidor-Node</h1>
 
  <p>Criando um servidor com NodeExpress</p>
