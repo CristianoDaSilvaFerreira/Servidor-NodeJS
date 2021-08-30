@@ -8,20 +8,27 @@ module.exports = (app) => {
 
   app.get('/users', (req, res) => {
 
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'application/json');
-    res.json({
-      users: [{
-        name: 'Cristiano Ferreira',
-        email: 'cristiano@admin.com',
-        id: 1
-      }]
-  
+    db.find({}).sort({name: 1}).exec((err, user) => {
+
+      if (err) {
+        console.log(`error: ${err}`);
+        res.status(400).json({
+          error: err
+        });
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.json({
+          user
+
+        });
+      }
     });
+
   });
-  
+
   app.post('/users', (req, res) => {
-     
+
     db.insert(req.body, (err, user) => {
 
       if (err) {
