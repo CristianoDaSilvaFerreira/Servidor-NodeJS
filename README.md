@@ -53,4 +53,9 @@ Para fazer a instalação do NodeMon é bem simples, basta somente inserir o có
   npm install nedb --save
 ~~~
 
+ - Instalando o express-validator
+~~~JavaScript
+  npm install express-validator --save
+~~~
+
 
