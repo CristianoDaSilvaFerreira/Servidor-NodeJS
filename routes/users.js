@@ -26,6 +26,7 @@ module.exports = (app) => {
 
   });
 
+  // Inserindo um usuário
   route.post((req, res) => {
 
     db.insert(req.body, (err, user) => {
@@ -39,6 +40,7 @@ module.exports = (app) => {
     });
   });
 
+  // Listando usuário
   let routeId = app.route('/users/:id');
 
   routeId.get((req, res) => {
@@ -54,7 +56,8 @@ module.exports = (app) => {
     });
 
   });
-  
+
+  // Atualizando/editando 
   routeId.put((req, res) => {
 
     db.update({ _id: req.params.id }, req.body, err => {
@@ -64,6 +67,21 @@ module.exports = (app) => {
       } else {
 
         res.status(200).json(Object.assign(req.params, req.body));
+      }
+    });
+
+  });
+
+  // Deletando
+  routeId.delete((req, res) => {
+
+    db.remove({ _id: req.params.id }, { }, err => {
+
+      if (err) {
+        app.utils.error.send(err, req, res);
+      } else {
+
+        res.status(200).json(req.params);
       }
     });
 
